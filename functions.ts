@@ -2,11 +2,11 @@ function mult(x, y){
   return x * y;
 }
 
-send(mult(5,5));
+send("function", mult(5,5));
 
-function send(text){
+function send(title, text){
   var para = document.createElement("p");
-  var str = document.createTextNode(text.toString());
+  var str = document.createTextNode("["+title+"] "+text.toString());
   para.appendChild(str);
   document.getElementById('node').appendChild(para);
 }

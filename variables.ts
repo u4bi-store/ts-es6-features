@@ -4,11 +4,11 @@ let x = 5;
 /* immutable variable */
 const y = "Constrant"
 
-send("x: "+x+" y:"+y);
+send("variables", "x: "+x+" y:"+y);
 
-function send(text){
+function send(title, text){
   var para = document.createElement("p");
-  var str = document.createTextNode(text.toString());
+  var str = document.createTextNode("["+title+"] "+text.toString());
   para.appendChild(str);
   document.getElementById('node').appendChild(para);
 }
