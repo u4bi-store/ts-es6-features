@@ -1,7 +1,15 @@
-function greeter(person: string) {
-    return "u4bi" + person;
+interface Person{
+  firstName : string;
+  lastName : string;
 }
 
-var user = "u4bi";
-var user_a = [0,1,2]; /* 컴파에러 타입이 다름*/
+function greeter(person: Person) {
+    return "u4bi " + person.firstName+" "+person.lastName;
+}
+
+var user = {
+  firstName : "Myungjae",
+  lastName  : "Yu"
+};
+
 document.body.innerHTML = greeter(user);
