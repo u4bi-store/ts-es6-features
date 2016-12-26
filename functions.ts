@@ -1,10 +1,8 @@
-/* mutable variable */
-let x = 5;
+function mult(x, y){
+  return x * y;
+}
 
-/* immutable variable */
-const y = "Constrant"
-
-send("x: "+x+" y:"+y);
+send(mult(5,5));
 
 function send(text){
   var para = document.createElement("p");
