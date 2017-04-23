@@ -4,7 +4,6 @@ const ch = {
   "an": true,
   "and": true
 };
-/* [set] sun,is,star,energy,source */
 
 const str = "The Sun is a Star and an Energy Source";
 

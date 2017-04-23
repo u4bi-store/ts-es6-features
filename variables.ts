@@ -1,7 +1,5 @@
-/* mutable variable */
 let x = 5;
 
-/* immutable variable */
 const y = "Constrant"
 
 send("variables", "x: "+x+" y:"+y);
