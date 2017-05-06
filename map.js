@@ -37,3 +37,17 @@ let godMap = new Map()
     .set('df', true);
 
 console.log(godMap); // chainable map godMap array setup
+
+let soulMap = new Map();
+
+const GOOD_KEY = {};
+const LOAD_KEY = {};
+const GOD = {};
+
+soulMap.set(GOOD_KEY, 'hello');
+soulMap.set(LOAD_KEY, 'world');
+soulMap.set(GOD, godMap);
+
+console.log(soulMap.get(GOOD_KEY), soulMap.get(LOAD_KEY), soulMap.get(GOD));
+
+console.log(soulMap);
