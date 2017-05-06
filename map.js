@@ -56,3 +56,4 @@ for(let key of godMap.keys()) console.log(key);       // iterables for key
 for(let value of godMap.values()) console.log(value); // iterables for value
 for(let entry of godMap.entries()) console.log(entry, entry[0], entry[1]); // iterables for entry
 for(let [good_key, good_value] of godMap.entries()) console.log(good_key, good_value); // iterables for entry key value
+for(let [good_key, good_value] of godMap) console.log(good_key, good_value); // of godMap
