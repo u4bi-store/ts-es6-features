@@ -28,5 +28,12 @@ let goodMap = new Map([
     ['f', true]
 ]);
 
-console.log(goodMap); // good Map array setup
+console.log(goodMap); // goodMap array setup
 
+let godMap = new Map()
+    .set('af', 1)
+    .set('bf', 3)
+    .set('cf', 23.2)
+    .set('df', true);
+
+console.log(godMap); // chainable map godMap array setup
