@@ -18,3 +18,15 @@ console.log(map.size); // map size of 2
 map.clear(); // clear map
 
 console.log(map.size); // size 0
+
+let goodMap = new Map([
+    ['a', 'abc'],
+    ['b', 1],
+    ['c', 2],
+    ['d', 3],
+    ['e', 4.32],
+    ['f', true]
+]);
+
+console.log(goodMap); // good Map array setup
+
