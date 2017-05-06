@@ -77,6 +77,24 @@ let brr = new Map([
 console.log(...brr.keys()); // spread operator map keys
 
 
-brr.forEach((val, key) => {
+brr.forEach((val, key) => { // map foreach
     console.log(key ,val);
 });
+
+
+/*
+    filtering mapping
+*/
+let array = new Map()
+    .set(1, 'a')
+    .set(2, 'b')
+    .set(3, 'bomb');
+
+console.log('array : ', array);
+
+let filterArray = new Map(
+    [...array]
+    .filter(([key, value]) => key < 3)
+);
+
+console.log('fillterArray : ', filterArray);
