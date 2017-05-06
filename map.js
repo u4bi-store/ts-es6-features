@@ -14,3 +14,7 @@ map.set('a', true);
 map.set('b', false);
 
 console.log(map.size); // map size of 2
+
+map.clear(); // clear map
+
+console.log(map.size); // size 0
