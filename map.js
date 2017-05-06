@@ -98,3 +98,10 @@ let filterArray = new Map(
 );
 
 console.log('fillterArray : ', filterArray);
+
+let fixArray = new Map(
+    [...array]
+    .filter(([key, value]) => [key * 2, 'fix-'+value])
+);
+
+console.log('fixArray : ', fixArray);
