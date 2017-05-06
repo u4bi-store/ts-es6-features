@@ -67,3 +67,11 @@ let arr = [
 
 console.log(...arr); // spread operator map
 console.log(Math.max(...arr));
+
+let brr = new Map([
+    [1, 'a'],
+    [2, 'b'],
+    [3, 'c']
+]);
+
+console.log(...brr.keys()); // spread operator map keys
