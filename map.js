@@ -75,3 +75,8 @@ let brr = new Map([
 ]);
 
 console.log(...brr.keys()); // spread operator map keys
+
+
+brr.forEach((val, key) => {
+    console.log(key ,val);
+});
