@@ -51,3 +51,6 @@ soulMap.set(GOD, godMap);
 console.log(soulMap.get(GOOD_KEY), soulMap.get(LOAD_KEY), soulMap.get(GOD));
 
 console.log(soulMap);
+
+for(let key of godMap.keys()) console.log(key);       // iterables for key
+for(let value of godMap.values()) console.log(value); // iterables for value
