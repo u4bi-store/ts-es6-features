@@ -105,3 +105,20 @@ let fixArray = new Map(
 );
 
 console.log('fixArray : ', fixArray);
+
+// map api
+/**
+ * map.get(key)
+ * map.set(key, value)
+ * map.has(key)
+ * map.delete(key)
+ * 
+ * map.size
+ * map.clear()
+ * 
+ * map.entries()
+ * map.forEach((value, key, collection) =>
+ * map.keys()
+ * map.values()
+ * 
+ */
